@@ -64,12 +64,18 @@
       color: #00f5a0;
     }
 
-    /* Шапка */
+    /* Шапка с крупным незатонированным фото */
     header {
       text-align: center;
-      padding: 64px 24px;
+      padding: 110px 24px;
+      min-height: 520px;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
       border-bottom: 1px solid #182838;
-      background: linear-gradient(rgba(7, 13, 20, 0.72), rgba(7, 13, 20, 0.88)), url('hero.jpg') center/cover no-repeat;
+      background: url('hero.jpg') center/cover no-repeat;
+      background-color: #070d14;
       border-radius: 0 0 20px 20px;
     }
     .badge {
@@ -77,23 +83,26 @@
       font-size: 12px;
       letter-spacing: 2px;
       color: #00f5a0;
-      background: rgba(7, 13, 20, 0.78);
+      background: rgba(7, 13, 20, 0.82);
       border: 1px solid #00f5a0;
       padding: 5px 14px;
       border-radius: 20px;
       margin-bottom: 16px;
+      text-shadow: 0 2px 8px rgba(0, 0, 0, 0.9);
     }
     h1 {
-      font-size: clamp(26px, 4.5vw, 38px);
+      font-size: clamp(28px, 5vw, 42px);
       margin: 0 0 14px;
       color: #00d9f5;
       line-height: 1.2;
+      text-shadow: 0 2px 14px rgba(0, 0, 0, 0.9), 0 0 24px rgba(0, 0, 0, 0.75);
     }
     .sub {
-      color: #e2ebf3;
+      color: #ffffff;
       max-width: 680px;
       margin: 0 auto 28px;
       font-size: 17px;
+      text-shadow: 0 2px 12px rgba(0, 0, 0, 0.92), 0 0 20px rgba(0, 0, 0, 0.8);
     }
 
     /* Кнопки */
